@@ -1,4 +1,4 @@
-
+#code to demonstrate bar graph
 from matplotlib import pyplot as plt
 
 x = [5,2,9,4,7]
