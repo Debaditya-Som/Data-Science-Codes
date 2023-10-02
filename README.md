@@ -1,5 +1,16 @@
 # Data Visualization in Python
-This repo contains all the various ways to implement python libraries for visualization of data in python
+
+Data visualization is a powerful tool for understanding and communicating insights from data. This repository aims to provide a comprehensive collection of Python libraries, techniques, and code examples for data visualization. Whether you're interested in creating static charts, interactive dashboards, or custom data visualizations, you'll find guidance and code snippets to help you achieve your goals.
+
+
+## Hacktoberfest 2023
+
+We're excited to be participating in Hacktoberfest 2023! Hacktoberfest is an annual event where open-source enthusiasts come together to contribute to various projects like ours. Here's how you can participate:
+
+Follow the steps in the Contributing section to make your contributions to this repository.
+Ensure your contributions follow the Hacktoberfest guidelines to be eligible for the event.
+Join the global Hacktoberfest community and explore other projects you can contribute to on the official Hacktoberfest website.
+Let's make Hacktoberfest 2023 a great success together! Happy hacking!
 
 
 ## Axis
