@@ -1,5 +1,6 @@
-# Visualization in Python
-This repo contains all the various ways to implement matplotlib library for visualization of data in python
+# Data Visualization in Python
+This repo contains all the various ways to implement python libraries for visualization of data in python
+
 
 ## Axis
 ![Axis](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/46b72fb1-9ef6-4e1d-9b1c-02c6ce81330b)
