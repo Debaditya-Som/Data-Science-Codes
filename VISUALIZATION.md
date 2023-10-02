@@ -12,13 +12,13 @@ This file contains all the various ways to implement matplotlib library for visu
 ## Graph
 ![Graph](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/861e13b8-e5bf-47d4-b194-aba310b15124)
 ## Histogram
-![Histogram](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/5bebe6e5-0d0d-415e-a242-d0de4c7f6f51)
+![Histogram](![image](https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/100461991/b9e1cb3a-8cb9-437f-8323-a51f04daf7dc))
 ## Normal
 ![Normal](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/6c98a5d7-a915-4955-81bd-43e69d932dab)
 ## PCA1
 ![PCA1](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/3bf3be39-721a-43ae-b293-95eb4596691c)
 ## PieChart
-![PieChart](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/e996ebaf-fd27-4819-9ddd-0dedc911459e)
+![PieChart](![image](https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/100461991/3e058f3a-b060-43af-8f93-7d4ccb90a7af))
 ## Plot
 ![Plot](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/f51672f4-9a3d-4ba7-9240-4b265fe4b463)
 ## Scatter
