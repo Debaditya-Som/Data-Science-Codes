@@ -5,6 +5,8 @@ This repo contains all the various ways to implement matplotlib library for visu
 ![Axis](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/46b72fb1-9ef6-4e1d-9b1c-02c6ce81330b)
 ## Bar
 ![Bar](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/24a536d0-a519-4397-89e3-04f960ccb62c)
+## Distribution
+![Distribution](https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/130753205/05f66fef-4620-443e-8c92-919f77bc58b5)
 ## Figure_1
 ![Figure_1](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/45f11522-dab9-4eff-9add-c6d95f2e3fe6)
 ## Figure_2
