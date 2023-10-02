@@ -35,3 +35,5 @@ This repo contains all the various ways to implement matplotlib library for visu
 ![Visualization2](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/15b0b6ea-7a69-4066-9794-e0b0a5c6f81e)
 ## Ylabel
 ![Ylabel](https://github.com/Anushka-Bhowmick/matplotlib/assets/76967222/9016c3b8-3866-426d-9cef-1571113daf51)
+## Volatage-vs-Current
+![Volatge-vs-Current](https://github.com/Shinjan-saha/Data-Visualization-in-Python/blob/main/output_plots/Volatge-vs-Current.png)
