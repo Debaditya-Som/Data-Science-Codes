@@ -1,11 +1,16 @@
 #code to demonstrate bar graph
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 
-x = [5,2,9,4,7]
-y = [10,5,8,4,2]
+x = [5, 2, 9, 4, 7]
+y = [10, 5, 8, 4, 2]
+bar_colors = ['blue', 'green', 'red', 'purple', 'orange']
+plt.bar(x, y, color=bar_colors)
 
-plt.bar(x,y)
+# Add labels to the axes
+plt.xlabel('X-axis Label')
+plt.ylabel('Y-axis Label')
 
+plt.title('Bar Plot Example')
 plt.show()
 
 
