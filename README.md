@@ -8,9 +8,9 @@ Data visualization is a powerful tool for understanding and communicating insigh
 
 ## Hacktoberfest 2023
 
- 
-![logo-hacktoberfest--logomark b91c17d2](https://github.com/Debaditya-Som/Hacktober-fest-2023/assets/121785700/e9b39efd-9473-4d51-a721-009526fc9ffb)
-
+<p align="center">
+  <img src="https://github.com/Debaditya-Som/Hacktober-fest-2023/assets/121785700/e9b39efd-9473-4d51-a721-009526fc9ffb" alt="logo-hacktoberfest--logomark">
+</p>
 
 We're excited to be participating in Hacktoberfest 2023! Hacktoberfest is an annual event where open-source enthusiasts come together to contribute to various projects like ours. Here's how you can participate:
 
