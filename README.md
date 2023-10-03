@@ -45,3 +45,11 @@ git push origin feature/your-contribution
   Please adhere to our code of conduct and respect the guidelines outlined in our contributing guidelines.
 
 Happy Contributing!
+
+
+## Contributors
+
+<a href="https://github.com/debaditya-som/data-visualization-in-python/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=debaditya-som/data-visualization-in-python" />
+</a>
+
