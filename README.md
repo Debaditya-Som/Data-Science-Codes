@@ -1,6 +1,7 @@
 # Data Visualization in Python
-
-![285d68dd-charts-1024x581](https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/121785700/d40a65d0-ec85-462a-9475-4982a375d067)
+<p align="center">
+  <img src="https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/121785700/d40a65d0-ec85-462a-9475-4982a375d067" width=50%/ alt="Data Visualization Image">
+</p>
 
 Data visualization is a powerful tool for understanding and communicating insights from data. This repository aims to provide a comprehensive collection of Python libraries and techniques.
 
