@@ -1,15 +1,16 @@
 # Data Visualization in Python
-
-![285d68dd-charts-1024x581](https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/121785700/d40a65d0-ec85-462a-9475-4982a375d067)
+<p align="center">
+  <img src="https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/121785700/d40a65d0-ec85-462a-9475-4982a375d067" width=50%/ alt="Data Visualization Image">
+</p>
 
 Data visualization is a powerful tool for understanding and communicating insights from data. This repository aims to provide a comprehensive collection of Python libraries and techniques.
 
 
 ## Hacktoberfest 2023
 
- 
-![logo-hacktoberfest--logomark b91c17d2](https://github.com/Debaditya-Som/Hacktober-fest-2023/assets/121785700/e9b39efd-9473-4d51-a721-009526fc9ffb)
-
+<p align="center">
+  <img src="https://github.com/Debaditya-Som/Hacktober-fest-2023/assets/121785700/e9b39efd-9473-4d51-a721-009526fc9ffb" alt="logo-hacktoberfest--logomark">
+</p>
 
 We're excited to be participating in Hacktoberfest 2023! Hacktoberfest is an annual event where open-source enthusiasts come together to contribute to various projects like ours. Here's how you can participate:
 
