@@ -30,13 +30,22 @@ Thank you for your interest in contributing to this project! Hacktoberfest 2023 
 - Create a new branch to work on your contribution.
 
 ```
+git branch your-feature-branch
+```
+- Switch to your branch
+```
+git checkout your-feature-branch
+
+```
+
+```
 git commit -m "Add a new example for Seaborn"
 
 ```
 - Push your changes to Github repo
 
 ```
-git push origin feature/your-contribution
+git push origin feature/your-feature-branch
 
 ```
 
