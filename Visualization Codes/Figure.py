@@ -1,4 +1,4 @@
-import numpy as np 
+# import numpy as np 
 from matplotlib import pyplot as plt
 
 
@@ -7,9 +7,14 @@ plt.subplot(211)
 plt.plot([1,2,3])
 plt.subplot(212)
 plt.plot([4,5,6])
+# plt.subplot(213)
+plt.plot([7,8,9])
 
 plt.figure(2)   #second figure
 plt.plot([4,5,6])
+
+plt.figure(3) #third figure
+plt.plot([7,8,9])
 
 plt.figure(1)   #first figure current;
 
