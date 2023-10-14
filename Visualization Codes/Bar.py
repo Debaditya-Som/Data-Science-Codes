@@ -1,8 +1,10 @@
 #code to demonstrate bar graph
 import matplotlib.pyplot as plt
+import numpy as np
 
-x = [5, 2, 9, 4, 7]
-y = [10, 5, 8, 4, 2]
+
+x = np.array([5, 2, 9, 4, 7])
+y = np.array([10, 5, 8, 4, 2])
 bar_colors = ['blue', 'green', 'red', 'purple', 'orange']
 plt.bar(x, y, color=bar_colors)
 
