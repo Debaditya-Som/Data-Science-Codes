@@ -68,4 +68,3 @@ Happy Contributing!
 <a href="https://github.com/debaditya-som/data-visualization-in-python/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=debaditya-som/data-visualization-in-python" />
 </a>
-
