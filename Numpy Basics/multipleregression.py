@@ -3,7 +3,7 @@ from pandas import DataFrame
 from sklearn import linear_model
 import statsmodels.api as sm
 df = DataFrame(pd.read_csv('stock.csv'))
-df
+print(df)
 X = df[['Interest_Rate','Unemployment_Rate']]
 Y = df ['Stock_Index_Price']
 regr = linear_model.LinearRegression()
