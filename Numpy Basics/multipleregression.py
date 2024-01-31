@@ -19,5 +19,3 @@ X = sm.add_constant(X)
 model = sm.OLS(Y,X).fit()
 adjusted_r_sq = model.rsquared_adj
 print("Adjusted r squared:",adjusted_r_sq) 
-
-#end of code
