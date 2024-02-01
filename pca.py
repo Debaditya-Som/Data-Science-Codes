@@ -10,25 +10,20 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv('iris.csv')
-df.species.replace({'Setosa':0,'Versicolor':1,'Virginica':2},inplace= True)
+df.Species.replace({'Iris-setosa':0,'Iris-versicolor':1,'Iris-virginica':2},inplace= True)
 df.head()
 
-features = ['sepal_length',	'sepal_width',	'petal_length',	'petal_width'	]
+features = ['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']
 x = df.loc[:, features].values
-y = df.loc[:,['species']].values
+y = df.loc[:,['Species']].values
 
 x = StandardScaler().fit_transform(x)
-print(pd.DataFrame(data=x,columns=features).head())
+pd.DataFrame(data=x,columns=features).head()
 
 pca = PCA()
-
 X_new = pca.fit_transform(x)
-
-#VARIANCE
-explained_variance = pca.explained_variance_ratio_
-explained_variance
+explained_variance = pca.explained_variance_ratio_ #VARIANCE
 
 pca = PCA(n_components=2)
 principalComponent = pca.fit_transform(x)
 principalDF = pd.DataFrame(data= principalComponent, columns=['PC1','PC2'])
-print(principalDF)
