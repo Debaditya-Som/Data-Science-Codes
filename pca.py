@@ -10,30 +10,21 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv('iris.csv')
-df.info()
-df.describe()
-# This method in pandas provides descriptive statitics of the dataframes numeric columns.IT includes measures of central tendency, dispersion and shape of the distribution of the dataset
-
 df.species.replace({'Setosa':0,'Versicolor':1,'Virginica':2},inplace= True)
 df.head()
 
 features = ['sepal_length',	'sepal_width',	'petal_length',	'petal_width'	]
-
 x = df.loc[:, features].values
-
 y = df.loc[:,['species']].values
 
 x = StandardScaler().fit_transform(x)
 print(pd.DataFrame(data=x,columns=features).head())
-
-#PCA
 
 pca = PCA()
 
 X_new = pca.fit_transform(x)
 
 #VARIANCE
-
 explained_variance = pca.explained_variance_ratio_
 explained_variance
 
