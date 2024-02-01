@@ -14,11 +14,6 @@ Data = { 'x' : [185,170,168,179,182,188,180,180,183,180,180,177],
 }
 
 df = DataFrame(Data,columns=['x','y'])
-print("Shape of data frame",df.shape)
-
-#output : shape of data frame (12, 2)
-
-
 wcss = [] #initialize empty list to store the WCSS Value.
 
 for i in range(1,13):    #Each iteration corresponds to a differemnt number of clusters (k)
@@ -34,30 +29,14 @@ plt.ylabel('WCSS')
 plt.title("Elbow point graph for optimal value of k")
 plt.show()
 
-
-#k-means clustering
-
 my_centroids = np.array([[185,75],[170,56],[168,60]])
 kmeans = KMeans(n_clusters = 3, init= my_centroids).fit(df)
-kmeans
-
-
 centroids = kmeans.cluster_centers_
 print(centroids)
 
-# [[181.4  74.5]
-# [170.   56. ]
-# [168.   60. ]]
-
 X = df.iloc[:,:].values
-
 y_means = kmeans.fit_predict(X)
-y_means
 
-
-# output : array([0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], dtype=int32)
-
-#scatter plot for data poinrs in cluster 1
 plt.scatter(X[y_means == 0,0], X[y_means==0,1],s=60,c='blue',label='Cluster 1')
 plt.scatter(X[y_means == 1,0], X[y_means==1,1],s=60,c='chocolate',label='Cluster 2')
 plt.scatter(X[y_means == 2,0], X[y_means==2,1],s=60,c='pink',label='Cluster 3')
