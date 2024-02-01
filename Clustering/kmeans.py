@@ -12,22 +12,12 @@ import numpy as np
 Data = { 'x' : [185,170,168,179,182,188,180,180,183,180,180,177],
          'y' : [72,56,60,68,72,77,71,70,84,88,67,76]    
 }
-Data
 
 df = DataFrame(Data,columns=['x','y'])
-
-#It suggests that you are creating a pandas
-df
-
 print("Shape of data frame",df.shape)
 
 #output : shape of data frame (12, 2)
 
-#Elbow Method : Choosing the right number of clusters is an important part of this algorithm, an ideal way to figure out the right no of clusters is to calculate is the Within Cluster Sum of Squares (WCSS).
-# a commonly used method for finding the optimal value of K is elbow method.
-# in this method, we are actually varying the number pof clusters (k), generally from 1 to 10. For each value of K we are calculating WCSS.
-# WCSS is the sum of sqaured distance between each point & the centroid in a cluster.
-# When w eplot the WCSS value with the K value, the plot looks like an elbow. As the number of clusters increases, the WCSS value wil start to decrease.
 
 wcss = [] #initialize empty list to store the WCSS Value.
 
