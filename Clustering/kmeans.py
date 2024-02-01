@@ -20,9 +20,6 @@ for i in range(1,13):    #Each iteration corresponds to a differemnt number of c
     km = KMeans(n_clusters=i) 
     km.fit_predict(df) #fits model into data(df)
     wcss.append(km.inertia_)
-
-wcss
-
 plt.plot(wcss)
 plt.xlabel('Number of cluster')
 plt.ylabel('WCSS')
