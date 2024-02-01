@@ -23,8 +23,6 @@ for i in range(1,13):    #Each iteration corresponds to a differemnt number of c
 plt.plot(wcss)
 plt.xlabel('Number of cluster')
 plt.ylabel('WCSS')
-plt.title("Elbow point graph for optimal value of k")
-plt.show()
 
 my_centroids = np.array([[185,75],[170,56],[168,60]])
 kmeans = KMeans(n_clusters = 3, init= my_centroids).fit(df)
