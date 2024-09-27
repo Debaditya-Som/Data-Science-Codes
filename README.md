@@ -1,6 +1,4 @@
 # Data Science Codes
-
-
 <p align="center">
   <img src="https://github.com/Debaditya-Som/Data-Visualization-in-Python/assets/121785700/d40a65d0-ec85-462a-9475-4982a375d067" width=50%/ alt="Data Visualization Image">
 </p>
